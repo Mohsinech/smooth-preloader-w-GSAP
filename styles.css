@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url(font/NeueMontreal-Medium.ttf);
+}
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Neue Montreal", sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+  color: black;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+.btn::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  bottom: -0.5rem;
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: transform 0.2s ease;
+}
+.btn:hover::before {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+h1 {
+  font-size: 3rem;
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+.preloader {
+  background-color: #000;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+}
+span {
+  display: inline-block;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.loader {
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 0;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.loader-title {
+  color: #000000;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+}
+.p-title {
+  transform: translateY(100%);
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+}
+svg {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+    width: 600px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .p-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+  .p-title {
+    font-size: 2.5rem;
+  }
+  body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+  .p-title {
+    font-size: 3rem;
+  }
+}
