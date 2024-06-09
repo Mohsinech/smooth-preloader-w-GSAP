@@ -1,3 +1,5 @@
+
+https://github.com/Mohsinech/smooth-preloader-w-GSAP/assets/93294675/2c733360-f17d-4859-9fcd-1a609bcce85f
 # Smooth Preloader Animation using GSAP
 
 ## Project Description
@@ -17,6 +19,8 @@ This project demonstrates a smooth preloader animation using GSAP (GreenSock Ani
 - **GSAP** (for animation)
 
 ## Preview
+
+https://github.com/Mohsinech/smooth-preloader-w-GSAP/assets/93294675/e42c0b60-d89b-4a36-a96c-d433f7220e34
 
 ## Launching the Project
 
