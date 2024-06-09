@@ -1,5 +1,4 @@
 
-https://github.com/Mohsinech/smooth-preloader-w-GSAP/assets/93294675/2c733360-f17d-4859-9fcd-1a609bcce85f
 # Smooth Preloader Animation using GSAP
 
 ## Project Description
