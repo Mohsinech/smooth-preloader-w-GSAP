@@ -26,7 +26,7 @@ https://github.com/Mohsinech/smooth-preloader-w-GSAP/assets/93294675/e42c0b60-d8
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   [git clone https://github.com/yourusername/your-repo.git](https://github.com/Mohsinech/smooth-preloader-w-GSAP.git)
    cd your-repo
    ```
 
