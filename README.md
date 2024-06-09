@@ -36,7 +36,7 @@ The project uses system fonts by default.
 
 ## Demo
 
-Check out the live demo of the project [here](https://your-demo-link.com).
+Check out the live demo of the project [here]([https://your-demo-link.com](https://mohsinech.github.io/smooth-preloader-w-GSAP/)).
 
 ## Contact
 
